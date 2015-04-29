@@ -1,0 +1,77 @@
+
+You are using a proportion of Invariable sites estimate, although I don't
+like it. The likelihood epsilon "-f e" will be automatically lowered to 0.001
+to avoid unfavorable effects caused by simultaneous optimization of alpha and P-Invar
+
+
+IMPORTANT WARNING: Sequences HOUSE307-11802-FEMALE_SAMPLED_44.7234066255922 and HOUSE5822-5800-MALE_SAMPLED_44.9046154567636 are exactly identical
+
+IMPORTANT WARNING
+Found 1 sequence that is exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+An alignment file with sequence duplicates removed has already
+been printed to file Vill_01_Feb2015_5yr_gag.muscle.phy.reduced
+
+
+This is RAxML version 7.2.8 released by Alexandros Stamatakis in October 2010.
+
+With greatly appreciated code contributions by:
+Andre Aberer (TUM)
+Simon Berger (TUM)
+John Cazes (TACC)
+Michael Ott (TUM)
+Nick Pattengale (UNM)
+Wayne Pfeiffer (SDSC)
+Akifumi S. Tanabe (Univ. Tsukuba)
+
+
+Alignment has 1019 distinct alignment patterns
+
+Found 0 invariant alignment patterns that correspond to 0 columns 
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA+P-Invar model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA+P-Invar Model parameters will be estimated up to an accuracy of 0.0010000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1019
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Vill_01_Feb2015_5yr_gag.muscle.phy -m GTRGAMMAI -n Vill_01_Feb2015_5yr_gag -p 12345 
+
+
+Inference[0]: Time 5002.229295 GAMMA+P-Invar-based likelihood -144107.362428, best rearrangement setting 10
+alpha[0]: 0.976829 invar[0]: 0.308728 rates[0] ac ag at cg ct gt: 1.036087 8.820192 1.141678 0.852874 9.281035 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -144097.355861 tree written to file /home/mukarram/PANGEA/pangea-round2-Simon/sequences/RAxML_result.Vill_01_Feb2015_5yr_gag
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -144097.355861 .... 
+
+Final GAMMA-based Score of best tree -144097.168439
+
+Program execution info written to /home/mukarram/PANGEA/pangea-round2-Simon/sequences/RAxML_info.Vill_01_Feb2015_5yr_gag
+Best-scoring ML tree written to: /home/mukarram/PANGEA/pangea-round2-Simon/sequences/RAxML_bestTree.Vill_01_Feb2015_5yr_gag
+
+Overall execution time: 7414.199657 secs or 2.059500 hours or 0.085812 days
+

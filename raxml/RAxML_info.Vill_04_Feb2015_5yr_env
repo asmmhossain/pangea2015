@@ -1,0 +1,67 @@
+
+You are using a proportion of Invariable sites estimate, although I don't
+like it. The likelihood epsilon "-f e" will be automatically lowered to 0.001
+to avoid unfavorable effects caused by simultaneous optimization of alpha and P-Invar
+
+
+This is RAxML version 7.2.8 released by Alexandros Stamatakis in October 2010.
+
+With greatly appreciated code contributions by:
+Andre Aberer (TUM)
+Simon Berger (TUM)
+John Cazes (TACC)
+Michael Ott (TUM)
+Nick Pattengale (UNM)
+Wayne Pfeiffer (SDSC)
+Akifumi S. Tanabe (Univ. Tsukuba)
+
+
+Alignment has 1737 distinct alignment patterns
+
+Found 0 invariant alignment patterns that correspond to 0 columns 
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA+P-Invar model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA+P-Invar Model parameters will be estimated up to an accuracy of 0.0010000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1737
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Vill_04_Feb2015_5yr_env.muscle.phy -m GTRGAMMAI -n Vill_04_Feb2015_5yr_env -p 12345 
+
+
+Inference[0]: Time 13863.204012 GAMMA+P-Invar-based likelihood -412071.341150, best rearrangement setting 10
+alpha[0]: 0.953722 invar[0]: 0.308754 rates[0] ac ag at cg ct gt: 1.162386 9.708022 1.062302 0.989420 9.617082 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -412060.647109 tree written to file /home/mukarram/PANGEA/pangea-round2-Simon/sequences/RAxML_result.Vill_04_Feb2015_5yr_env
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -412060.647109 .... 
+
+Final GAMMA-based Score of best tree -412060.647109
+
+Program execution info written to /home/mukarram/PANGEA/pangea-round2-Simon/sequences/RAxML_info.Vill_04_Feb2015_5yr_env
+Best-scoring ML tree written to: /home/mukarram/PANGEA/pangea-round2-Simon/sequences/RAxML_bestTree.Vill_04_Feb2015_5yr_env
+
+Overall execution time: 18461.708646 secs or 5.128252 hours or 0.213677 days
+
